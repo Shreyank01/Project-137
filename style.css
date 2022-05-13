@@ -1,0 +1,56 @@
+.heading {
+    width: 100%;
+    margin:0px;
+    font-size: 20px;
+}
+ 
+body{
+    background-size:cover;
+}
+
+.copy_right_footer {
+    bottom: 0px;
+    line-height: 2;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.388);
+    font-size: 20px;
+    position: fixed;
+    width:100%;
+    text-align: center;
+}
+
+.button_start {
+    width:150px;
+    font-size: 18px;
+}
+
+#status , #num_of_objects_detected {
+    font-size: 18px;
+}
+
+canvas {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    box-shadow: 10px 10px 20px black;
+    margin-top:100px;
+}
+
+.input_box {
+    width:554px;
+}
+
+#show_objects {
+    float:right;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.893);
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+#show_objects:hover {
+    background-color: rgba(0, 0, 0, 0.546);
+}
